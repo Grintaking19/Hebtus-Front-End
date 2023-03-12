@@ -1,0 +1,60 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
+nav {
+    padding: 0px 20px;
+    display: flex;
+    /* background-color: blue; */
+    height: 90px;
+    align-items: center;
+}
+
+.hebtus-logo-text {
+    font-family: Montserrat, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    color: #F05537;
+    margin-right: auto;
+    
+}
+
+
+.nav-bar--button{
+    height: 90px;
+    width:135px;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+
+.nav-bar--button--icon{
+    font-size: 25px;
+}
+
+.nav-bar--user{
+    height: 90px;
+    width:300px;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    font-family: Montserrat, sans-serif;
+    /* text-align: center; */
+    /* flex-direction: row; */
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.nav-bar--username{
+    margin-left: auto;
+}
