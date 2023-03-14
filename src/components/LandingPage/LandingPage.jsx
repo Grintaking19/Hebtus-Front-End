@@ -7,9 +7,15 @@ export default function LandingPage(){
     return(
 
         <div>
-           <NavBar/>
-           <section><Categories/></section>git 
-           <Events/>
+        {/* <header> */}
+            <NavBar/>
+            <Categories/>
+        {/* </header> */}
+        
+        {/* <main> */}
+            <Events/>
+            {/* </main> */}
+
         </div>
 
     )

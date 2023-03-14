@@ -35,10 +35,16 @@ export default function NavBar(){
            </div>
 
            <div className="nav-bar--user">
-            <a>
-                <AiOutlineUser className="nav-bar--button--icon"/>
-                <div className="nav-bar--username">OmarAlSharif@gmail.com</div>
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <AiOutlineUser className="nav-bar--button--icon "/>
+                <div className=" nav-bar--username d-inline-block align-text-top">OmarAlSharif@gmail.com</div>
                 </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="#">Manage my events</a></li>
+            <li><a class="dropdown-item" href="#">Tickets</a></li>
+            <li><a class="dropdown-item" href="#">Logout</a></li>
+          </ul>
+
            </div>
            
           
